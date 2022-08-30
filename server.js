@@ -8,6 +8,7 @@ require('dotenv').config()
 var cors = require('cors')
 
 app.use(cors())
+app.use(express.urlencoded({ extended: true }))
 
 //import path module
 const path=require('path');

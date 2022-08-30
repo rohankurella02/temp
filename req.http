@@ -1,4 +1,8 @@
 GET http://localhost:2000/product-api/getproducts
 
+######
+GET https://e-pharmacy-uday.herokuapp.com/product-api/getproducts
+
+
 ###
 GET http://localhost:2000/product-api/getproduct/Coldarin
