@@ -31,8 +31,8 @@ const DBurl=process.env.DATABASE_CONNECTION_URL;
 
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
   app.use(exp.static(path.join(__dirname, "./build")))
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, "./build/index.html"));
+  app.get(/^\/(?!api).*/, (req, res) => { // don't serve api routes to react app
+     res.sendFile(path.join(__dirname, './build/index.html'));
   });
 }
 
