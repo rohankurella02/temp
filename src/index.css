@@ -1,0 +1,65 @@
+.active{
+    background-color: aqua;
+  }
+.active:hover,#btns:hover{
+    background-color: darkmagenta;
+  }
+
+.card img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+  }
+.card{
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  background-color: darksalmon;
+  
+}
+.card:hover{
+  transform: scale(1.1);
+  width: 410px;
+  height: 410px;
+  border-radius: 50px;
+  background-color: aqua;
+  
+}
+.abc{
+  justify-content: space-around;
+}
+
+.card .bt{
+  color:white;
+  width: 120px;
+  margin: auto;
+  display: block;
+  background-color: blueviolet;
+  border-radius: 25px;
+}
+
+.backg{
+  background:linear-gradient(to left top, blue, red);
+  color: white;
+  background-size: cover;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+ 
+}
+
+
+.profile-pic{
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+}

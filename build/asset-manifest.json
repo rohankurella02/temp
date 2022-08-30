@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d78e5f17.css",
+    "main.js": "/static/js/main.7bca93ef.js",
+    "static/js/787.8a127825.chunk.js": "/static/js/787.8a127825.chunk.js",
+    "static/media/navlogo.png": "/static/media/navlogo.d1d3f0d4333090f53008.png",
+    "static/media/carousel3.jpg": "/static/media/carousel3.70b9f02a2fa1328765a0.jpg",
+    "static/media/carousel2.jpg": "/static/media/carousel2.ee8a393200cac8ec3ba2.jpg",
+    "static/media/carousel1.jpg": "/static/media/carousel1.1b2109963b5c3a5eaf37.jpg",
+    "static/media/home.svg": "/static/media/home.aa21511fae1269950d1d40b6acd87103.svg",
+    "static/media/contact.svg": "/static/media/contact.13c80369250d8f0aff509318d9d484eb.svg",
+    "static/media/login.svg": "/static/media/login.4c840394ce8c311e5839623efa3b0f0f.svg",
+    "index.html": "/index.html",
+    "main.d78e5f17.css.map": "/static/css/main.d78e5f17.css.map",
+    "main.7bca93ef.js.map": "/static/js/main.7bca93ef.js.map",
+    "787.8a127825.chunk.js.map": "/static/js/787.8a127825.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d78e5f17.css",
+    "static/js/main.7bca93ef.js"
+  ]
+}
