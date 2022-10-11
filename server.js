@@ -83,5 +83,5 @@ app.use((error, request, response, next) => {
 });
 
 //assign port number
-const port=process.env.PORT || 4000;
+const port=process.env.PORT;
 app.listen(port, () => console.log(`Web server listening on port ${port}`));

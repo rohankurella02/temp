@@ -11,7 +11,7 @@ import {CartProvider} from 'react-use-cart'
 ReactDOM.render(
   <React.StrictMode>
     <CartProvider>
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
     <Provider store={store}>
     <App />
     </Provider>
