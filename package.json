@@ -2,7 +2,7 @@
   "name": "projectapp",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js"
+  "main": "server.js",
   "start": "node server.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
